@@ -70,7 +70,7 @@ We are going to use a sample schema given to use by MySQL.
 
 1. What is the relationship between the "actor" and "film_actor" tables?
 
-        One to One. They both have just actor_id in each. 
+        One to many.  the conection between looks like this: Actor ||----------|< Film_actor 
 
 2. What does the blue diamond next to the "last_update" column on the "inventory" table represent?
  
